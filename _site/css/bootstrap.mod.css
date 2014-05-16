@@ -1,0 +1,41 @@
+.body {
+font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+/* max-width:730px; */
+}
+
+.glyphicon-bigger {font-size: 60px;
+color: white;
+}
+
+.top50 {
+margin-top: 50px;
+}
+.top100 {
+margin-top: 100px;
+}
+
+.top200 {
+margin-top: 200px;
+}
+
+h1, p {
+color: white;
+}
+
+
+
+.entry {
+
+    /* Para Navegadores que no soportan RGBa mostramos color sólido sin transparencia */
+    background: rgb(0, 0, 0);
+    /* Para navegadores que soportan RGBa mostramos el color sólido con un 50% de opacidad */
+    background: rgba(255, 255, 255, 0.8);
+margin-top: 100px;
+
+}
+
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./css/bootstrap.css">
+
+	<!-- customized CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/bootstrap.mod.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+           function onLoad() {
+            
+                window.onscroll = function() {
+                    var speed = 8.0;
+                    document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+                }
+            
+            }
+            
+        </script>
+
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top - 50
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+
+
+
+</head>
+  <body onload="onLoad()" style="background-image:url('./img/bg-01.jpg'); background-repeat:repeat-xy; background-attachment: fixed; margin-top:200px;">
+
+
+
+<div class="container">
+
+          {{ content }}
+		
+</div>
+
+
+
+
+
+</body>
+</html>
