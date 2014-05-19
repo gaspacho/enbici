@@ -5,11 +5,11 @@ title:  HackLab Oeste
 
 
 <div class="page-header">
-<H1 class="text-center">DEVEL UP</h1>
+<H1 class="text-center">DESARROLLO EN BICI</h1>
 </div>
 
 <div class="text-center">
-<p class="lead">Tecnología, Arte y Software Libre.</p>
+<p class="lead">ARTE Y TECNOLOGÌA</p>
 </div>
 <div class="text-center top200">
 <a href="#servicios"><span class="glyphicon glyphicon-circle-arrow-down glyphicon-bigger"></span></a>
@@ -27,15 +27,10 @@ title:  HackLab Oeste
   <div class="col-md-4 text-center"><img src="img/rpi.png"><br /><br />
    <p class="lead">Soluciones basadas en dispositivos embebidos.</p>
    <p>ARM, Arduino, Raspberry Pi.</p>
-   <p>Aplicaciones artísticas.</p>
-   <p>Automatización y control.</p>
+   <p>Aplicaciones artìsticas.</p>
+   <p>Automatizaciòn y control.</p>
   </div>
-  <div class="col-md-4 text-center"><img src="img/bash.png"><br /><br />
-  <p class="lead">Administración<br />de Sistemas</p>
-  <p>Soporte Técnico.</p>
-  <p>Implentación de Software Libre.</p>
-  <p>Desarrollo de Software.</p>
-  </div>
+  <div class="col-md-4 text-center"><img src="img/bash.png"></div>
 </div>
 
 
