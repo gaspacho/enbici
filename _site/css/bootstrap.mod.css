@@ -2,15 +2,12 @@
 
 
 
-
-
-.body {
-font-family: 'Montserrat', sans-serif;
+body {
+/* font-family: 'PT Sans', sans-serif; */
+font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-/* max-width:730px; */
-}
+
 
 .glyphicon-bigger {font-size: 60px;
 color: white;
@@ -27,10 +24,19 @@ margin-top: 100px;
 margin-top: 200px;
 }
 
-h1, p {
+h1, h2, p, li {
 color: white;
 }
-
+.fill {
+/* Para Navegadores que no soportan RGBa mostramos color sólido sin transparencia */
+background: rgb(0, 0, 0);
+/* Para navegadores que soportan RGBa mostramos el color sólido con un 50% de opacidad */
+background: rgba(0, 0, 0, 0.5);
+padding: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
 
 
 
@@ -38,39 +44,9 @@ color: white;
 /* Footer */
 
 footer {
-background: #191919;
+background: #000000;
+border-top: 1px solid;
+border-color: #ffffff;
 color: #7c8081;
 padding: 5em 5em 10em 5em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.entry {
-
-    /* Para Navegadores que no soportan RGBa mostramos color sólido sin transparencia */
-    background: rgb(0, 0, 0);
-    /* Para navegadores que soportan RGBa mostramos el color sólido con un 50% de opacidad */
-    background: rgba(255, 255, 255, 0.8);
-margin-top: 100px;
-
-}
-
-
-

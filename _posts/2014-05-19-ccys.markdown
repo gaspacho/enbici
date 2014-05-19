@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Programa de monitoreo continuo de calidad de aire en San Lorenzo."
+date:   2014-05-19 17:08:15
+categories: blog
+---
+<h1 class="top50">{{ page.title }}</h1>
+
+
+Red de equipos de monitoreo de partículas y gases que pueden tener un efecto nocivo para la salud.
+
+Este sistema se basa en la posibilidad de aplicación de telemetría en dispositivos embebidos, por su fácil manipulación y conectividad.
+
+
+Desarrollo del Sistema
+-------
+
+La red de monitoreo se sostiene sobre 3 partes fundamentales:
+
+- Equipos de monitoreo.
+- Métodos de telemetría.
+- Administración y acceso a datos.
+
+Los **equipos de monitoreo** permiten obtener informacion en tiempo real acerca de la composición, o al menos una muestra selectiva sobre algunos compuestos y particulas determinados, 
+que existen en el aire.
+
+Los **métodos de telemetría** estan sujetos a la forma en que el equipo de monitoreo puede brindarnos informacion, los dispositivos empleados para tal fin suelen conectarse a internet 
+vía 3g/GPRS, wifi, internet satelital o el servicio a redes mas accesible en el lugar de montaje.
+
+La **administración y acceso a datos** se realiza gracias a servidores remotos quienes reciben la información, catalogan y guardan en bases de datos, esta información es presentada con 
+aplicaciones web. La ventaja de este sistema es que el operador puede administrar y ver los datos en cualquier lugar del mundo y cualquier dispositivo en donde posea una conexión a 
+internet.
