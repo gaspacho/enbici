@@ -7,7 +7,7 @@ categories: blog
 <h1 class="top50">{{ page.title }}</h1>
 
 
-Red de equipos de monitoreo de partículas y gases que pueden tener un efecto nocivo para la salud.
+Red de equipos de monitoreo de partículas y gases que se encuentran disueltos en el aire.
 
 Este sistema se basa en la posibilidad de aplicación de telemetría en dispositivos embebidos, por su fácil manipulación y conectividad.
 
@@ -21,8 +21,8 @@ La red de monitoreo se sostiene sobre 3 partes fundamentales:
 - Métodos de telemetría.
 - Administración y acceso a datos.
 
-Los **equipos de monitoreo** permiten obtener informacion en tiempo real acerca de la composición, o al menos una muestra selectiva sobre algunos compuestos y particulas determinados, 
-que existen en el aire.
+Los **equipos de monitoreo** permiten obtener informacion en **tiempo real** acerca de la composición, o al menos una muestra selectiva sobre algunos compuestos y 
+particulas que existen en el aire.
 
 Los **métodos de telemetría** estan sujetos a la forma en que el equipo de monitoreo puede brindarnos informacion, los dispositivos empleados para tal fin suelen conectarse a internet 
 vía 3g/GPRS, wifi, internet satelital o el servicio a redes mas accesible en el lugar de montaje.
